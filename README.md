@@ -1,12 +1,11 @@
-# ExportJSON
+# ExportInExcel
 
-You export data into excel format. Used npm excelJS library. 
-It can also used for nested table format in excel.
+You export data into excel format. Table with basic format and table with merged cell .i.e colspan/rowspan; can also be exported in excel. 
+Used npm excelJS library. 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 
 ## Build
 

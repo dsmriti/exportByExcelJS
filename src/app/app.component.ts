@@ -31,8 +31,12 @@ export class AppComponent {
   constructor(public exportJSON:ExportExcelService){}
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
-
+  
+  //For Basic Table
   exportAsXLSX(){
     this.exportJSON.exportAsExcelFile(this.dataSource,"test_", this.displayedColumns)
   }
+
+  //For Nested column or merged cell in tables
+
 }
